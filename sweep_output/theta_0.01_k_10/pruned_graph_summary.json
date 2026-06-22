@@ -1,0 +1,10 @@
+{
+  "node_count_before": 18,
+  "node_count_after_clinical_filter": 18,
+  "node_count_after_global_prune": 18,
+  "node_count_after_root_select": 18,
+  "edge_count_before": 119,
+  "edge_count_after": 119,
+  "theta_global": 0.03,
+  "top_k_per_root": 10
+}

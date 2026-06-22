@@ -1,0 +1,1699 @@
+{
+  "record_count": 75,
+  "repository_types": [
+    "openehr"
+  ],
+  "metadata": {},
+  "nodes": [
+    {
+      "node_id": "Outpatient_high_complexity_procedures",
+      "concept_name": "Outpatient high complexity procedures",
+      "path": "Outpatient high complexity procedures",
+      "datatype": "unknown",
+      "node_type": "root",
+      "repository_types": [
+        "openehr"
+      ],
+      "archetype_ids": [
+        "openEHR-EHR-COMPOSITION.outpatient_high_complexity_procedures.v1"
+      ],
+      "occurrence_count": 25,
+      "record_count": 25,
+      "coverage_global": 0.3333333333333333,
+      "coverage_local": 1.0,
+      "coverage": 0.8666666666666667,
+      "diversity": 0.0,
+      "local_utility": 0.8666666666666667,
+      "queriability": 1.6250000000000004,
+      "distinct_count": 0,
+      "distinct_values": [],
+      "total_records": 25,
+      "value_examples": [],
+      "recommended_widget": "text_input",
+      "child_count": 5
+    },
+    {
+      "node_id": "Outpatient_high_complexity_procedures__Outpatient_high_complexity_procedures",
+      "concept_name": "Outpatient high complexity procedures",
+      "path": "Outpatient high complexity procedures / Outpatient high complexity procedures",
+      "datatype": "DV_CODED_TEXT",
+      "node_type": "root",
+      "repository_types": [
+        "openehr"
+      ],
+      "archetype_ids": [
+        "openEHR-EHR-COMPOSITION.outpatient_high_complexity_procedures.v1"
+      ],
+      "occurrence_count": 25,
+      "record_count": 25,
+      "coverage_global": 0.3333333333333333,
+      "coverage_local": 1.0,
+      "coverage": 0.8666666666666667,
+      "diversity": 0.04,
+      "local_utility": 0.8753333333333334,
+      "queriability": 1.3628333333333336,
+      "distinct_count": 1,
+      "distinct_values": [
+        "Outpatient high complexity procedures"
+      ],
+      "total_records": 25,
+      "value_examples": [
+        "Outpatient high complexity procedures"
+      ],
+      "recommended_widget": "dropdown",
+      "child_count": 0
+    },
+    {
+      "node_id": "Outpatient_high_complexity_procedures__Admin_Entry:_HCPA",
+      "concept_name": "Admin Entry: HCPA",
+      "path": "Outpatient high complexity procedures / Admin Entry: HCPA",
+      "datatype": "unknown",
+      "node_type": "section",
+      "repository_types": [
+        "openehr"
+      ],
+      "archetype_ids": [
+        "openEHR-EHR-COMPOSITION.outpatient_high_complexity_procedures.v1"
+      ],
+      "occurrence_count": 25,
+      "record_count": 25,
+      "coverage_global": 0.3333333333333333,
+      "coverage_local": 1.0,
+      "coverage": 0.8666666666666667,
+      "diversity": 0.0,
+      "local_utility": 0.8666666666666667,
+      "queriability": 1.4083333333333337,
+      "distinct_count": 0,
+      "distinct_values": [],
+      "total_records": 25,
+      "value_examples": [],
+      "recommended_widget": "text_input",
+      "child_count": 1
+    },
+    {
+      "node_id": "Outpatient_high_complexity_procedures__Admin_Entry:_Patient_discharge",
+      "concept_name": "Admin Entry: Patient discharge",
+      "path": "Outpatient high complexity procedures / Admin Entry: Patient discharge",
+      "datatype": "unknown",
+      "node_type": "section",
+      "repository_types": [
+        "openehr"
+      ],
+      "archetype_ids": [
+        "openEHR-EHR-COMPOSITION.outpatient_high_complexity_procedures.v1"
+      ],
+      "occurrence_count": 25,
+      "record_count": 25,
+      "coverage_global": 0.3333333333333333,
+      "coverage_local": 1.0,
+      "coverage": 0.8666666666666667,
+      "diversity": 0.0,
+      "local_utility": 0.8666666666666667,
+      "queriability": 1.4083333333333337,
+      "distinct_count": 0,
+      "distinct_values": [],
+      "total_records": 25,
+      "value_examples": [],
+      "recommended_widget": "text_input",
+      "child_count": 1
+    },
+    {
+      "node_id": "Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis",
+      "concept_name": "Evaluation: Problem/Diagnosis",
+      "path": "Outpatient high complexity procedures / Evaluation: Problem/Diagnosis",
+      "datatype": "unknown",
+      "node_type": "section",
+      "repository_types": [
+        "openehr"
+      ],
+      "archetype_ids": [
+        "openEHR-EHR-COMPOSITION.outpatient_high_complexity_procedures.v1"
+      ],
+      "occurrence_count": 25,
+      "record_count": 25,
+      "coverage_global": 0.3333333333333333,
+      "coverage_local": 1.0,
+      "coverage": 0.8666666666666667,
+      "diversity": 0.0,
+      "local_utility": 0.8666666666666667,
+      "queriability": 1.4083333333333337,
+      "distinct_count": 0,
+      "distinct_values": [],
+      "total_records": 25,
+      "value_examples": [],
+      "recommended_widget": "text_input",
+      "child_count": 1
+    },
+    {
+      "node_id": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken",
+      "concept_name": "Action: Procedure undertaken",
+      "path": "Outpatient high complexity procedures / Action: Procedure undertaken",
+      "datatype": "unknown",
+      "node_type": "section",
+      "repository_types": [
+        "openehr"
+      ],
+      "archetype_ids": [
+        "openEHR-EHR-COMPOSITION.outpatient_high_complexity_procedures.v1"
+      ],
+      "occurrence_count": 25,
+      "record_count": 25,
+      "coverage_global": 0.3333333333333333,
+      "coverage_local": 1.0,
+      "coverage": 0.8666666666666667,
+      "diversity": 0.0,
+      "local_utility": 0.8666666666666667,
+      "queriability": 1.4083333333333337,
+      "distinct_count": 0,
+      "distinct_values": [],
+      "total_records": 25,
+      "value_examples": [],
+      "recommended_widget": "text_input",
+      "child_count": 1
+    },
+    {
+      "node_id": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken__Procedure_list",
+      "concept_name": "Procedure list",
+      "path": "Outpatient high complexity procedures / Action: Procedure undertaken / Procedure list",
+      "datatype": "unknown",
+      "node_type": "substructure",
+      "repository_types": [
+        "openehr"
+      ],
+      "archetype_ids": [
+        "openEHR-EHR-COMPOSITION.outpatient_high_complexity_procedures.v1"
+      ],
+      "occurrence_count": 25,
+      "record_count": 25,
+      "coverage_global": 0.3333333333333333,
+      "coverage_local": 1.0,
+      "coverage": 0.8666666666666667,
+      "diversity": 0.0,
+      "local_utility": 0.8666666666666667,
+      "queriability": 1.354166666666667,
+      "distinct_count": 0,
+      "distinct_values": [],
+      "total_records": 25,
+      "value_examples": [],
+      "recommended_widget": "text_input",
+      "child_count": 0
+    },
+    {
+      "node_id": "Hospitalisation",
+      "concept_name": "Hospitalisation",
+      "path": "Hospitalisation",
+      "datatype": "unknown",
+      "node_type": "root",
+      "repository_types": [
+        "openehr"
+      ],
+      "archetype_ids": [
+        "openEHR-EHR-COMPOSITION.hospitalisation.v1"
+      ],
+      "occurrence_count": 25,
+      "record_count": 25,
+      "coverage_global": 0.3333333333333333,
+      "coverage_local": 1.0,
+      "coverage": 0.8666666666666667,
+      "diversity": 0.0,
+      "local_utility": 0.8666666666666667,
+      "queriability": 1.7875000000000005,
+      "distinct_count": 0,
+      "distinct_values": [],
+      "total_records": 25,
+      "value_examples": [],
+      "recommended_widget": "text_input",
+      "child_count": 6
+    },
+    {
+      "node_id": "Hospitalisation__Hospitalisation",
+      "concept_name": "Hospitalisation",
+      "path": "Hospitalisation / Hospitalisation",
+      "datatype": "DV_TEXT",
+      "node_type": "root",
+      "repository_types": [
+        "openehr"
+      ],
+      "archetype_ids": [
+        "openEHR-EHR-COMPOSITION.hospitalisation.v1"
+      ],
+      "occurrence_count": 25,
+      "record_count": 25,
+      "coverage_global": 0.3333333333333333,
+      "coverage_local": 1.0,
+      "coverage": 0.8666666666666667,
+      "diversity": 0.04,
+      "local_utility": 0.8753333333333334,
+      "queriability": 1.471166666666667,
+      "distinct_count": 1,
+      "distinct_values": [
+        "Hospitalisation"
+      ],
+      "total_records": 25,
+      "value_examples": [
+        "Hospitalisation"
+      ],
+      "recommended_widget": "dropdown",
+      "child_count": 0
+    },
+    {
+      "node_id": "Hospitalisation__Admin_Entry:_Patient_discharge",
+      "concept_name": "Admin Entry: Patient discharge",
+      "path": "Hospitalisation / Admin Entry: Patient discharge",
+      "datatype": "unknown",
+      "node_type": "section",
+      "repository_types": [
+        "openehr"
+      ],
+      "archetype_ids": [
+        "openEHR-EHR-COMPOSITION.hospitalisation.v1"
+      ],
+      "occurrence_count": 25,
+      "record_count": 25,
+      "coverage_global": 0.3333333333333333,
+      "coverage_local": 1.0,
+      "coverage": 0.8666666666666667,
+      "diversity": 0.0,
+      "local_utility": 0.8666666666666667,
+      "queriability": 1.516666666666667,
+      "distinct_count": 0,
+      "distinct_values": [],
+      "total_records": 25,
+      "value_examples": [],
+      "recommended_widget": "text_input",
+      "child_count": 1
+    },
+    {
+      "node_id": "Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission",
+      "concept_name": "Admin Entry: Authorization for hospital admission",
+      "path": "Hospitalisation / Admin Entry: Authorization for hospital admission",
+      "datatype": "unknown",
+      "node_type": "section",
+      "repository_types": [
+        "openehr"
+      ],
+      "archetype_ids": [
+        "openEHR-EHR-COMPOSITION.hospitalisation.v1"
+      ],
+      "occurrence_count": 25,
+      "record_count": 25,
+      "coverage_global": 0.3333333333333333,
+      "coverage_local": 1.0,
+      "coverage": 0.8666666666666667,
+      "diversity": 0.0,
+      "local_utility": 0.8666666666666667,
+      "queriability": 1.516666666666667,
+      "distinct_count": 0,
+      "distinct_values": [],
+      "total_records": 25,
+      "value_examples": [],
+      "recommended_widget": "text_input",
+      "child_count": 1
+    },
+    {
+      "node_id": "Hospitalisation__Admin_Entry:_Patient_admission",
+      "concept_name": "Admin Entry: Patient admission",
+      "path": "Hospitalisation / Admin Entry: Patient admission",
+      "datatype": "unknown",
+      "node_type": "section",
+      "repository_types": [
+        "openehr"
+      ],
+      "archetype_ids": [
+        "openEHR-EHR-COMPOSITION.hospitalisation.v1"
+      ],
+      "occurrence_count": 25,
+      "record_count": 25,
+      "coverage_global": 0.3333333333333333,
+      "coverage_local": 1.0,
+      "coverage": 0.8666666666666667,
+      "diversity": 0.0,
+      "local_utility": 0.8666666666666667,
+      "queriability": 1.516666666666667,
+      "distinct_count": 0,
+      "distinct_values": [],
+      "total_records": 25,
+      "value_examples": [],
+      "recommended_widget": "text_input",
+      "child_count": 1
+    },
+    {
+      "node_id": "Hospitalisation__Evaluation:_Problem_Diagnosis",
+      "concept_name": "Evaluation: Problem/Diagnosis",
+      "path": "Hospitalisation / Evaluation: Problem/Diagnosis",
+      "datatype": "unknown",
+      "node_type": "section",
+      "repository_types": [
+        "openehr"
+      ],
+      "archetype_ids": [
+        "openEHR-EHR-COMPOSITION.hospitalisation.v1"
+      ],
+      "occurrence_count": 25,
+      "record_count": 25,
+      "coverage_global": 0.3333333333333333,
+      "coverage_local": 1.0,
+      "coverage": 0.8666666666666667,
+      "diversity": 0.0,
+      "local_utility": 0.8666666666666667,
+      "queriability": 1.516666666666667,
+      "distinct_count": 0,
+      "distinct_values": [],
+      "total_records": 25,
+      "value_examples": [],
+      "recommended_widget": "text_input",
+      "child_count": 1
+    },
+    {
+      "node_id": "Hospitalisation__Action:_Procedure_undertaken",
+      "concept_name": "Action: Procedure undertaken",
+      "path": "Hospitalisation / Action: Procedure undertaken",
+      "datatype": "unknown",
+      "node_type": "section",
+      "repository_types": [
+        "openehr"
+      ],
+      "archetype_ids": [
+        "openEHR-EHR-COMPOSITION.hospitalisation.v1"
+      ],
+      "occurrence_count": 25,
+      "record_count": 25,
+      "coverage_global": 0.3333333333333333,
+      "coverage_local": 1.0,
+      "coverage": 0.8666666666666667,
+      "diversity": 0.0,
+      "local_utility": 0.8666666666666667,
+      "queriability": 1.516666666666667,
+      "distinct_count": 0,
+      "distinct_values": [],
+      "total_records": 25,
+      "value_examples": [],
+      "recommended_widget": "text_input",
+      "child_count": 1
+    },
+    {
+      "node_id": "Hospitalisation__Action:_Procedure_undertaken__Procedure_list",
+      "concept_name": "Procedure list",
+      "path": "Hospitalisation / Action: Procedure undertaken / Procedure list",
+      "datatype": "unknown",
+      "node_type": "substructure",
+      "repository_types": [
+        "openehr"
+      ],
+      "archetype_ids": [
+        "openEHR-EHR-COMPOSITION.hospitalisation.v1"
+      ],
+      "occurrence_count": 25,
+      "record_count": 25,
+      "coverage_global": 0.3333333333333333,
+      "coverage_local": 1.0,
+      "coverage": 0.8666666666666667,
+      "diversity": 0.0,
+      "local_utility": 0.8666666666666667,
+      "queriability": 1.4625000000000004,
+      "distinct_count": 0,
+      "distinct_values": [],
+      "total_records": 25,
+      "value_examples": [],
+      "recommended_widget": "text_input",
+      "child_count": 0
+    },
+    {
+      "node_id": "Demographic_data",
+      "concept_name": "Demographic data",
+      "path": "Demographic data",
+      "datatype": "unknown",
+      "node_type": "root",
+      "repository_types": [
+        "openehr"
+      ],
+      "archetype_ids": [
+        "openEHR-EHR-COMPOSITION.demographic_data.v1"
+      ],
+      "occurrence_count": 25,
+      "record_count": 25,
+      "coverage_global": 0.3333333333333333,
+      "coverage_local": 1.0,
+      "coverage": 0.8666666666666667,
+      "diversity": 0.0,
+      "local_utility": 0.8666666666666667,
+      "queriability": 1.1375000000000002,
+      "distinct_count": 0,
+      "distinct_values": [],
+      "total_records": 25,
+      "value_examples": [],
+      "recommended_widget": "text_input",
+      "child_count": 2
+    },
+    {
+      "node_id": "Demographic_data__Demographic_data",
+      "concept_name": "Demographic data",
+      "path": "Demographic data / Demographic data",
+      "datatype": "DV_TEXT",
+      "node_type": "root",
+      "repository_types": [
+        "openehr"
+      ],
+      "archetype_ids": [
+        "openEHR-EHR-COMPOSITION.demographic_data.v1"
+      ],
+      "occurrence_count": 25,
+      "record_count": 25,
+      "coverage_global": 0.3333333333333333,
+      "coverage_local": 1.0,
+      "coverage": 0.8666666666666667,
+      "diversity": 0.04,
+      "local_utility": 0.8753333333333334,
+      "queriability": 1.0378333333333334,
+      "distinct_count": 1,
+      "distinct_values": [
+        "Demographic data"
+      ],
+      "total_records": 25,
+      "value_examples": [
+        "Demographic data"
+      ],
+      "recommended_widget": "dropdown",
+      "child_count": 0
+    },
+    {
+      "node_id": "Demographic_data__Admin_Entry:_Demographic_data",
+      "concept_name": "Admin Entry: Demographic data",
+      "path": "Demographic data / Admin Entry: Demographic data",
+      "datatype": "unknown",
+      "node_type": "section",
+      "repository_types": [
+        "openehr"
+      ],
+      "archetype_ids": [
+        "openEHR-EHR-COMPOSITION.demographic_data.v1"
+      ],
+      "occurrence_count": 25,
+      "record_count": 25,
+      "coverage_global": 0.3333333333333333,
+      "coverage_local": 1.0,
+      "coverage": 0.8666666666666667,
+      "diversity": 0.0,
+      "local_utility": 0.8666666666666667,
+      "queriability": 1.0833333333333335,
+      "distinct_count": 0,
+      "distinct_values": [],
+      "total_records": 25,
+      "value_examples": [],
+      "recommended_widget": "text_input",
+      "child_count": 1
+    }
+  ],
+  "edges": [
+    {
+      "source": "Outpatient_high_complexity_procedures",
+      "target": "Outpatient_high_complexity_procedures__Outpatient_high_complexity_procedures",
+      "edge_type": "containment",
+      "weight": 1.0,
+      "count": 1,
+      "containment_connectivity": 1.0,
+      "cooccurrence_connectivity": 0.0,
+      "structural_connectivity": 1.0
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures",
+      "target": "Outpatient_high_complexity_procedures__Admin_Entry:_HCPA",
+      "edge_type": "containment",
+      "weight": 1.0,
+      "count": 1,
+      "containment_connectivity": 1.0,
+      "cooccurrence_connectivity": 0.0,
+      "structural_connectivity": 1.0
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures",
+      "target": "Outpatient_high_complexity_procedures__Admin_Entry:_Patient_discharge",
+      "edge_type": "containment",
+      "weight": 1.0,
+      "count": 1,
+      "containment_connectivity": 1.0,
+      "cooccurrence_connectivity": 0.0,
+      "structural_connectivity": 1.0
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures",
+      "target": "Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis",
+      "edge_type": "containment",
+      "weight": 1.0,
+      "count": 1,
+      "containment_connectivity": 1.0,
+      "cooccurrence_connectivity": 0.0,
+      "structural_connectivity": 1.0
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures",
+      "target": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken",
+      "edge_type": "containment",
+      "weight": 1.0,
+      "count": 1,
+      "containment_connectivity": 1.0,
+      "cooccurrence_connectivity": 0.0,
+      "structural_connectivity": 1.0
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken",
+      "target": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken__Procedure_list",
+      "edge_type": "containment",
+      "weight": 1.0,
+      "count": 1,
+      "containment_connectivity": 1.0,
+      "cooccurrence_connectivity": 0.0,
+      "structural_connectivity": 1.0
+    },
+    {
+      "source": "Hospitalisation",
+      "target": "Hospitalisation__Hospitalisation",
+      "edge_type": "containment",
+      "weight": 1.0,
+      "count": 1,
+      "containment_connectivity": 1.0,
+      "cooccurrence_connectivity": 0.0,
+      "structural_connectivity": 1.0
+    },
+    {
+      "source": "Hospitalisation",
+      "target": "Hospitalisation__Admin_Entry:_Patient_discharge",
+      "edge_type": "containment",
+      "weight": 1.0,
+      "count": 1,
+      "containment_connectivity": 1.0,
+      "cooccurrence_connectivity": 0.0,
+      "structural_connectivity": 1.0
+    },
+    {
+      "source": "Hospitalisation",
+      "target": "Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission",
+      "edge_type": "containment",
+      "weight": 1.0,
+      "count": 1,
+      "containment_connectivity": 1.0,
+      "cooccurrence_connectivity": 0.0,
+      "structural_connectivity": 1.0
+    },
+    {
+      "source": "Hospitalisation",
+      "target": "Hospitalisation__Admin_Entry:_Patient_admission",
+      "edge_type": "containment",
+      "weight": 1.0,
+      "count": 1,
+      "containment_connectivity": 1.0,
+      "cooccurrence_connectivity": 0.0,
+      "structural_connectivity": 1.0
+    },
+    {
+      "source": "Hospitalisation",
+      "target": "Hospitalisation__Evaluation:_Problem_Diagnosis",
+      "edge_type": "containment",
+      "weight": 1.0,
+      "count": 1,
+      "containment_connectivity": 1.0,
+      "cooccurrence_connectivity": 0.0,
+      "structural_connectivity": 1.0
+    },
+    {
+      "source": "Hospitalisation",
+      "target": "Hospitalisation__Action:_Procedure_undertaken",
+      "edge_type": "containment",
+      "weight": 1.0,
+      "count": 1,
+      "containment_connectivity": 1.0,
+      "cooccurrence_connectivity": 0.0,
+      "structural_connectivity": 1.0
+    },
+    {
+      "source": "Hospitalisation__Action:_Procedure_undertaken",
+      "target": "Hospitalisation__Action:_Procedure_undertaken__Procedure_list",
+      "edge_type": "containment",
+      "weight": 1.0,
+      "count": 1,
+      "containment_connectivity": 1.0,
+      "cooccurrence_connectivity": 0.0,
+      "structural_connectivity": 1.0
+    },
+    {
+      "source": "Demographic_data",
+      "target": "Demographic_data__Demographic_data",
+      "edge_type": "containment",
+      "weight": 1.0,
+      "count": 1,
+      "containment_connectivity": 1.0,
+      "cooccurrence_connectivity": 0.0,
+      "structural_connectivity": 1.0
+    },
+    {
+      "source": "Demographic_data",
+      "target": "Demographic_data__Admin_Entry:_Demographic_data",
+      "edge_type": "containment",
+      "weight": 1.0,
+      "count": 1,
+      "containment_connectivity": 1.0,
+      "cooccurrence_connectivity": 0.0,
+      "structural_connectivity": 1.0
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures",
+      "target": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken",
+      "target": "Outpatient_high_complexity_procedures",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures",
+      "target": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken__Procedure_list",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken__Procedure_list",
+      "target": "Outpatient_high_complexity_procedures",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures",
+      "target": "Outpatient_high_complexity_procedures__Admin_Entry:_HCPA",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Admin_Entry:_HCPA",
+      "target": "Outpatient_high_complexity_procedures",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures",
+      "target": "Outpatient_high_complexity_procedures__Admin_Entry:_Patient_discharge",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Admin_Entry:_Patient_discharge",
+      "target": "Outpatient_high_complexity_procedures",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures",
+      "target": "Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis",
+      "target": "Outpatient_high_complexity_procedures",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures",
+      "target": "Outpatient_high_complexity_procedures__Outpatient_high_complexity_procedures",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Outpatient_high_complexity_procedures",
+      "target": "Outpatient_high_complexity_procedures",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken",
+      "target": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken__Procedure_list",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken__Procedure_list",
+      "target": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken",
+      "target": "Outpatient_high_complexity_procedures__Admin_Entry:_HCPA",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Admin_Entry:_HCPA",
+      "target": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken",
+      "target": "Outpatient_high_complexity_procedures__Admin_Entry:_Patient_discharge",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Admin_Entry:_Patient_discharge",
+      "target": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken",
+      "target": "Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis",
+      "target": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken",
+      "target": "Outpatient_high_complexity_procedures__Outpatient_high_complexity_procedures",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Outpatient_high_complexity_procedures",
+      "target": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken__Procedure_list",
+      "target": "Outpatient_high_complexity_procedures__Admin_Entry:_HCPA",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Admin_Entry:_HCPA",
+      "target": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken__Procedure_list",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken__Procedure_list",
+      "target": "Outpatient_high_complexity_procedures__Admin_Entry:_Patient_discharge",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Admin_Entry:_Patient_discharge",
+      "target": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken__Procedure_list",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken__Procedure_list",
+      "target": "Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis",
+      "target": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken__Procedure_list",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken__Procedure_list",
+      "target": "Outpatient_high_complexity_procedures__Outpatient_high_complexity_procedures",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Outpatient_high_complexity_procedures",
+      "target": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken__Procedure_list",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Admin_Entry:_HCPA",
+      "target": "Outpatient_high_complexity_procedures__Admin_Entry:_Patient_discharge",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Admin_Entry:_Patient_discharge",
+      "target": "Outpatient_high_complexity_procedures__Admin_Entry:_HCPA",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Admin_Entry:_HCPA",
+      "target": "Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis",
+      "target": "Outpatient_high_complexity_procedures__Admin_Entry:_HCPA",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Admin_Entry:_HCPA",
+      "target": "Outpatient_high_complexity_procedures__Outpatient_high_complexity_procedures",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Outpatient_high_complexity_procedures",
+      "target": "Outpatient_high_complexity_procedures__Admin_Entry:_HCPA",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Admin_Entry:_Patient_discharge",
+      "target": "Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis",
+      "target": "Outpatient_high_complexity_procedures__Admin_Entry:_Patient_discharge",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Admin_Entry:_Patient_discharge",
+      "target": "Outpatient_high_complexity_procedures__Outpatient_high_complexity_procedures",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Outpatient_high_complexity_procedures",
+      "target": "Outpatient_high_complexity_procedures__Admin_Entry:_Patient_discharge",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis",
+      "target": "Outpatient_high_complexity_procedures__Outpatient_high_complexity_procedures",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Outpatient_high_complexity_procedures__Outpatient_high_complexity_procedures",
+      "target": "Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation",
+      "target": "Hospitalisation__Action:_Procedure_undertaken",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Action:_Procedure_undertaken",
+      "target": "Hospitalisation",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation",
+      "target": "Hospitalisation__Action:_Procedure_undertaken__Procedure_list",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Action:_Procedure_undertaken__Procedure_list",
+      "target": "Hospitalisation",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation",
+      "target": "Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission",
+      "target": "Hospitalisation",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation",
+      "target": "Hospitalisation__Admin_Entry:_Patient_admission",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Admin_Entry:_Patient_admission",
+      "target": "Hospitalisation",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation",
+      "target": "Hospitalisation__Admin_Entry:_Patient_discharge",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Admin_Entry:_Patient_discharge",
+      "target": "Hospitalisation",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation",
+      "target": "Hospitalisation__Evaluation:_Problem_Diagnosis",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Evaluation:_Problem_Diagnosis",
+      "target": "Hospitalisation",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation",
+      "target": "Hospitalisation__Hospitalisation",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Hospitalisation",
+      "target": "Hospitalisation",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Action:_Procedure_undertaken",
+      "target": "Hospitalisation__Action:_Procedure_undertaken__Procedure_list",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Action:_Procedure_undertaken__Procedure_list",
+      "target": "Hospitalisation__Action:_Procedure_undertaken",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Action:_Procedure_undertaken",
+      "target": "Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission",
+      "target": "Hospitalisation__Action:_Procedure_undertaken",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Action:_Procedure_undertaken",
+      "target": "Hospitalisation__Admin_Entry:_Patient_admission",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Admin_Entry:_Patient_admission",
+      "target": "Hospitalisation__Action:_Procedure_undertaken",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Action:_Procedure_undertaken",
+      "target": "Hospitalisation__Admin_Entry:_Patient_discharge",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Admin_Entry:_Patient_discharge",
+      "target": "Hospitalisation__Action:_Procedure_undertaken",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Action:_Procedure_undertaken",
+      "target": "Hospitalisation__Evaluation:_Problem_Diagnosis",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Evaluation:_Problem_Diagnosis",
+      "target": "Hospitalisation__Action:_Procedure_undertaken",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Action:_Procedure_undertaken",
+      "target": "Hospitalisation__Hospitalisation",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Hospitalisation",
+      "target": "Hospitalisation__Action:_Procedure_undertaken",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Action:_Procedure_undertaken__Procedure_list",
+      "target": "Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission",
+      "target": "Hospitalisation__Action:_Procedure_undertaken__Procedure_list",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Action:_Procedure_undertaken__Procedure_list",
+      "target": "Hospitalisation__Admin_Entry:_Patient_admission",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Admin_Entry:_Patient_admission",
+      "target": "Hospitalisation__Action:_Procedure_undertaken__Procedure_list",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Action:_Procedure_undertaken__Procedure_list",
+      "target": "Hospitalisation__Admin_Entry:_Patient_discharge",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Admin_Entry:_Patient_discharge",
+      "target": "Hospitalisation__Action:_Procedure_undertaken__Procedure_list",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Action:_Procedure_undertaken__Procedure_list",
+      "target": "Hospitalisation__Evaluation:_Problem_Diagnosis",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Evaluation:_Problem_Diagnosis",
+      "target": "Hospitalisation__Action:_Procedure_undertaken__Procedure_list",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Action:_Procedure_undertaken__Procedure_list",
+      "target": "Hospitalisation__Hospitalisation",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Hospitalisation",
+      "target": "Hospitalisation__Action:_Procedure_undertaken__Procedure_list",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission",
+      "target": "Hospitalisation__Admin_Entry:_Patient_admission",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Admin_Entry:_Patient_admission",
+      "target": "Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission",
+      "target": "Hospitalisation__Admin_Entry:_Patient_discharge",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Admin_Entry:_Patient_discharge",
+      "target": "Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission",
+      "target": "Hospitalisation__Evaluation:_Problem_Diagnosis",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Evaluation:_Problem_Diagnosis",
+      "target": "Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission",
+      "target": "Hospitalisation__Hospitalisation",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Hospitalisation",
+      "target": "Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Admin_Entry:_Patient_admission",
+      "target": "Hospitalisation__Admin_Entry:_Patient_discharge",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Admin_Entry:_Patient_discharge",
+      "target": "Hospitalisation__Admin_Entry:_Patient_admission",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Admin_Entry:_Patient_admission",
+      "target": "Hospitalisation__Evaluation:_Problem_Diagnosis",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Evaluation:_Problem_Diagnosis",
+      "target": "Hospitalisation__Admin_Entry:_Patient_admission",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Admin_Entry:_Patient_admission",
+      "target": "Hospitalisation__Hospitalisation",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Hospitalisation",
+      "target": "Hospitalisation__Admin_Entry:_Patient_admission",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Admin_Entry:_Patient_discharge",
+      "target": "Hospitalisation__Evaluation:_Problem_Diagnosis",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Evaluation:_Problem_Diagnosis",
+      "target": "Hospitalisation__Admin_Entry:_Patient_discharge",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Admin_Entry:_Patient_discharge",
+      "target": "Hospitalisation__Hospitalisation",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Hospitalisation",
+      "target": "Hospitalisation__Admin_Entry:_Patient_discharge",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Evaluation:_Problem_Diagnosis",
+      "target": "Hospitalisation__Hospitalisation",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Hospitalisation__Hospitalisation",
+      "target": "Hospitalisation__Evaluation:_Problem_Diagnosis",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Demographic_data",
+      "target": "Demographic_data__Admin_Entry:_Demographic_data",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Demographic_data__Admin_Entry:_Demographic_data",
+      "target": "Demographic_data",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Demographic_data",
+      "target": "Demographic_data__Demographic_data",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Demographic_data__Demographic_data",
+      "target": "Demographic_data",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Demographic_data__Admin_Entry:_Demographic_data",
+      "target": "Demographic_data__Demographic_data",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    },
+    {
+      "source": "Demographic_data__Demographic_data",
+      "target": "Demographic_data__Admin_Entry:_Demographic_data",
+      "edge_type": "cooccurrence",
+      "weight": 0.3333333333333333,
+      "count": 25,
+      "containment_connectivity": 0.0,
+      "cooccurrence_connectivity": 0.3333333333333333,
+      "structural_connectivity": 0.3333333333333333
+    }
+  ]
+}

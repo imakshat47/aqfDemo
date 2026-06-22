@@ -1,0 +1,8 @@
+
+body{background:#f5f7fa;font-family:Segoe UI,sans-serif}
+.aqf-layout{display:grid;grid-template-columns:280px 1fr 320px;gap:16px;padding:16px}
+.panel{background:white;border-radius:12px;padding:16px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.field-card{border:1px solid #e5e7eb;padding:12px;border-radius:10px;margin-bottom:12px}
+.field-card input,.field-card select{width:100%;margin-top:8px;margin-bottom:8px}
+button{padding:12px 20px;border:none;border-radius:8px;background:#2e7d32;color:white;cursor:pointer}
+.badge{display:inline-block;background:#eef6ee;padding:6px 10px;border-radius:20px;margin-bottom:12px}

@@ -1,0 +1,2 @@
+class OperatorAwareness:
+    pass

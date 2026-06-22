@@ -1,0 +1,2 @@
+class CanonicalStructureBuilder:
+    pass

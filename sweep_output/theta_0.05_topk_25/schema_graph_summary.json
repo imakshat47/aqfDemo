@@ -1,0 +1,18 @@
+{
+  "records": 75,
+  "repository_types": [
+    "openehr"
+  ],
+  "node_count": 71,
+  "edge_count": 2008,
+  "composition_like_units": 50,
+  "ehr_index_units": 0,
+  "demographic_units": 25,
+  "composition_types": {},
+  "root_record_counts": {
+    "Outpatient high complexity procedures": 25,
+    "Hospitalisation": 25,
+    "Demographic data": 25
+  },
+  "record_count": 75
+}

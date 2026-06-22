@@ -1,0 +1,19 @@
+node_id,concept_name,path,datatype,node_type,coverage_global,coverage_local,coverage,child_count,queriability,distinct_count,recommended_widget
+Outpatient_high_complexity_procedures,Outpatient high complexity procedures,Outpatient high complexity procedures,unknown,root,0.3333,1.0,0.8667,5,1.625,0,text_input
+Outpatient_high_complexity_procedures__Outpatient_high_complexity_procedures,Outpatient high complexity procedures,Outpatient high complexity procedures / Outpatient high complexity procedures,DV_CODED_TEXT,root,0.3333,1.0,0.8667,0,1.3628,1,dropdown
+Outpatient_high_complexity_procedures__Admin_Entry:_HCPA,Admin Entry: HCPA,Outpatient high complexity procedures / Admin Entry: HCPA,unknown,section,0.3333,1.0,0.8667,1,1.4083,0,text_input
+Outpatient_high_complexity_procedures__Admin_Entry:_Patient_discharge,Admin Entry: Patient discharge,Outpatient high complexity procedures / Admin Entry: Patient discharge,unknown,section,0.3333,1.0,0.8667,1,1.4083,0,text_input
+Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis,Evaluation: Problem/Diagnosis,Outpatient high complexity procedures / Evaluation: Problem/Diagnosis,unknown,section,0.3333,1.0,0.8667,1,1.4083,0,text_input
+Outpatient_high_complexity_procedures__Action:_Procedure_undertaken,Action: Procedure undertaken,Outpatient high complexity procedures / Action: Procedure undertaken,unknown,section,0.3333,1.0,0.8667,1,1.4083,0,text_input
+Outpatient_high_complexity_procedures__Action:_Procedure_undertaken__Procedure_list,Procedure list,Outpatient high complexity procedures / Action: Procedure undertaken / Procedure list,unknown,substructure,0.3333,1.0,0.8667,0,1.3542,0,text_input
+Hospitalisation,Hospitalisation,Hospitalisation,unknown,root,0.3333,1.0,0.8667,6,1.7875,0,text_input
+Hospitalisation__Hospitalisation,Hospitalisation,Hospitalisation / Hospitalisation,DV_TEXT,root,0.3333,1.0,0.8667,0,1.4712,1,dropdown
+Hospitalisation__Admin_Entry:_Patient_discharge,Admin Entry: Patient discharge,Hospitalisation / Admin Entry: Patient discharge,unknown,section,0.3333,1.0,0.8667,1,1.5167,0,text_input
+Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission,Admin Entry: Authorization for hospital admission,Hospitalisation / Admin Entry: Authorization for hospital admission,unknown,section,0.3333,1.0,0.8667,1,1.5167,0,text_input
+Hospitalisation__Admin_Entry:_Patient_admission,Admin Entry: Patient admission,Hospitalisation / Admin Entry: Patient admission,unknown,section,0.3333,1.0,0.8667,1,1.5167,0,text_input
+Hospitalisation__Evaluation:_Problem_Diagnosis,Evaluation: Problem/Diagnosis,Hospitalisation / Evaluation: Problem/Diagnosis,unknown,section,0.3333,1.0,0.8667,1,1.5167,0,text_input
+Hospitalisation__Action:_Procedure_undertaken,Action: Procedure undertaken,Hospitalisation / Action: Procedure undertaken,unknown,section,0.3333,1.0,0.8667,1,1.5167,0,text_input
+Hospitalisation__Action:_Procedure_undertaken__Procedure_list,Procedure list,Hospitalisation / Action: Procedure undertaken / Procedure list,unknown,substructure,0.3333,1.0,0.8667,0,1.4625,0,text_input
+Demographic_data,Demographic data,Demographic data,unknown,root,0.3333,1.0,0.8667,2,1.1375,0,text_input
+Demographic_data__Demographic_data,Demographic data,Demographic data / Demographic data,DV_TEXT,root,0.3333,1.0,0.8667,0,1.0378,1,dropdown
+Demographic_data__Admin_Entry:_Demographic_data,Admin Entry: Demographic data,Demographic data / Admin Entry: Demographic data,unknown,section,0.3333,1.0,0.8667,1,1.0833,0,text_input

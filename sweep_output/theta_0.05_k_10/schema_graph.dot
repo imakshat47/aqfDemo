@@ -1,0 +1,37 @@
+digraph AQF {
+rankdir="LR";
+node [shape=box, style="rounded,filled", fillcolor="#E8F0FE"];
+"Outpatient_high_complexity_procedures" [label="Outpatient high complexity procedures\nunknown"];
+"Outpatient_high_complexity_procedures__Outpatient_high_complexity_procedures" [label="Outpatient high complexity procedures\nDV_CODED_TEXT"];
+"Outpatient_high_complexity_procedures__Admin_Entry:_HCPA" [label="Admin Entry: HCPA\nunknown"];
+"Outpatient_high_complexity_procedures__Admin_Entry:_Patient_discharge" [label="Admin Entry: Patient discharge\nunknown"];
+"Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis" [label="Evaluation: Problem/Diagnosis\nunknown"];
+"Outpatient_high_complexity_procedures__Action:_Procedure_undertaken" [label="Action: Procedure undertaken\nunknown"];
+"Outpatient_high_complexity_procedures__Action:_Procedure_undertaken__Procedure_list" [label="Procedure list\nunknown"];
+"Hospitalisation" [label="Hospitalisation\nunknown"];
+"Hospitalisation__Hospitalisation" [label="Hospitalisation\nDV_TEXT"];
+"Hospitalisation__Admin_Entry:_Patient_discharge" [label="Admin Entry: Patient discharge\nunknown"];
+"Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission" [label="Admin Entry: Authorization for hospital admission\nunknown"];
+"Hospitalisation__Admin_Entry:_Patient_admission" [label="Admin Entry: Patient admission\nunknown"];
+"Hospitalisation__Evaluation:_Problem_Diagnosis" [label="Evaluation: Problem/Diagnosis\nunknown"];
+"Hospitalisation__Action:_Procedure_undertaken" [label="Action: Procedure undertaken\nunknown"];
+"Hospitalisation__Action:_Procedure_undertaken__Procedure_list" [label="Procedure list\nunknown"];
+"Demographic_data" [label="Demographic data\nunknown"];
+"Demographic_data__Demographic_data" [label="Demographic data\nDV_TEXT"];
+"Demographic_data__Admin_Entry:_Demographic_data" [label="Admin Entry: Demographic data\nunknown"];
+"Outpatient_high_complexity_procedures" -> "Outpatient_high_complexity_procedures__Outpatient_high_complexity_procedures";
+"Outpatient_high_complexity_procedures" -> "Outpatient_high_complexity_procedures__Admin_Entry:_HCPA";
+"Outpatient_high_complexity_procedures" -> "Outpatient_high_complexity_procedures__Admin_Entry:_Patient_discharge";
+"Outpatient_high_complexity_procedures" -> "Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis";
+"Outpatient_high_complexity_procedures" -> "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken";
+"Outpatient_high_complexity_procedures__Action:_Procedure_undertaken" -> "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken__Procedure_list";
+"Hospitalisation" -> "Hospitalisation__Hospitalisation";
+"Hospitalisation" -> "Hospitalisation__Admin_Entry:_Patient_discharge";
+"Hospitalisation" -> "Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission";
+"Hospitalisation" -> "Hospitalisation__Admin_Entry:_Patient_admission";
+"Hospitalisation" -> "Hospitalisation__Evaluation:_Problem_Diagnosis";
+"Hospitalisation" -> "Hospitalisation__Action:_Procedure_undertaken";
+"Hospitalisation__Action:_Procedure_undertaken" -> "Hospitalisation__Action:_Procedure_undertaken__Procedure_list";
+"Demographic_data" -> "Demographic_data__Demographic_data";
+"Demographic_data" -> "Demographic_data__Admin_Entry:_Demographic_data";
+}

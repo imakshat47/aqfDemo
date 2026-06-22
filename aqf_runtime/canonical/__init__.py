@@ -1,0 +1,1 @@
+from .canonical_structure_generator import CanonicalStructureGenerator

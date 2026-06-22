@@ -1,0 +1,10 @@
+{
+  "theta_global": 0.05,
+  "top_k_per_root": 15,
+  "node_count_before": 71,
+  "node_count_after_global_prune": 71,
+  "node_count_after_root_select": 71,
+  "edge_count_before": 2008,
+  "edge_count_after_global_prune": 2008,
+  "edge_count_after_root_select": 2008
+}

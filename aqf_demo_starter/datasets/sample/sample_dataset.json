@@ -1,0 +1,50 @@
+{
+  "records": [
+    {
+      "demographic": {
+        "age": 56,
+        "gender": "Female",
+        "city": "Delhi"
+      },
+      "aih": {
+        "composition": "High Complexity Procedures",
+        "procedure": "Biopsy",
+        "state": "Completed"
+      },
+      "pach": {
+        "admission_type": "Elective",
+        "ward": "Oncology"
+      }
+    },
+    {
+      "demographic": {
+        "age": 42,
+        "gender": "Male",
+        "city": "Delhi"
+      },
+      "aih": {
+        "composition": "High Complexity Procedures",
+        "procedure": "Chemotherapy",
+        "state": "Completed"
+      },
+      "pach": {
+        "admission_type": "Emergency",
+        "ward": "General"
+      }
+    },
+    {
+      "demographic": {
+        "age": 61,
+        "gender": "Female",
+        "city": "Noida"
+      },
+      "mixed": {
+        "lab": {
+          "hemoglobin": 10.4,
+          "unit": "g/dL"
+        },
+        "note": "Follow up"
+      }
+    }
+  ]
+}

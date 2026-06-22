@@ -1,0 +1,46 @@
+{
+  "Outpatient high complexity procedures": {
+    "available": 28,
+    "selected": 10,
+    "top_fields": [
+      "Problem",
+      "Procedure",
+      "issue date",
+      "State",
+      "date of beginning of chemotherapy",
+      "date of pathological identification",
+      "Secondary Diagnosis",
+      "topography",
+      "patient age",
+      "date of discharge"
+    ]
+  },
+  "Hospitalisation": {
+    "available": 24,
+    "selected": 10,
+    "top_fields": [
+      "date of discharge",
+      "Problem",
+      "Secondary Diagnosis",
+      "Procedure",
+      "Issue date",
+      "Admit date/time",
+      "State/province",
+      "Admission type",
+      "claim reason",
+      "Hospital service"
+    ]
+  },
+  "Demographic data": {
+    "available": 6,
+    "selected": 6,
+    "top_fields": [
+      "birth date",
+      "gender",
+      "race",
+      "nationality",
+      "educational level",
+      "ethnic group"
+    ]
+  }
+}

@@ -1,0 +1,214 @@
+digraph AQF {
+rankdir="LR";
+node [shape=box, style="rounded,filled", fillcolor="#E8F0FE"];
+"Outpatient_high_complexity_procedures" [label="Outpatient high complexity procedures
+unknown"];
+"Outpatient_high_complexity_procedures__Admin_Entry:_HCPA" [label="Admin Entry: HCPA
+unknown"];
+"Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components" [label="components
+unknown"];
+"Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components__General_data" [label="General data
+unknown"];
+"Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components__General_data__issue_date" [label="issue date
+DV_DATE"];
+"Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components__General_data__reason_for_encounter" [label="reason for encounter
+DV_TEXT"];
+"Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components__General_data__healthcare_unit" [label="healthcare unit
+DV_TEXT"];
+"Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components__General_data__State" [label="State
+DV_CODED_TEXT"];
+"Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components__General_data__patient_age" [label="patient age
+DV_TEXT"];
+"Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components__chemotherapy" [label="chemotherapy
+unknown"];
+"Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components__chemotherapy__duration_of_treatment" [label="duration of treatment
+DV_TEXT"];
+"Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components__chemotherapy__schema" [label="schema
+DV_CODED_TEXT"];
+"Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components__chemotherapy__date_of_beginning_of_chemotherapy" [label="date of beginning of chemotherapy
+DV_DATE"];
+"Outpatient_high_complexity_procedures__Admin_Entry:_Patient_discharge" [label="Admin Entry: Patient discharge
+unknown"];
+"Outpatient_high_complexity_procedures__Admin_Entry:_Patient_discharge__Components" [label="Components
+unknown"];
+"Outpatient_high_complexity_procedures__Admin_Entry:_Patient_discharge__Components__date_of_discharge" [label="date of discharge
+DV_DATE"];
+"Outpatient_high_complexity_procedures__Admin_Entry:_Patient_discharge__Components__reason_for_discharge" [label="reason for discharge
+DV_DATE"];
+"Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis" [label="Evaluation: Problem/Diagnosis
+unknown"];
+"Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure" [label="structure
+unknown"];
+"Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure__Problem" [label="Problem
+DV_CODED_TEXT"];
+"Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure__Secondary_Diagnosis" [label="Secondary Diagnosis
+DV_CODED_TEXT"];
+"Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure__Associated_causes" [label="Associated causes
+DV_TEXT"];
+"Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure__Invaded_regional_linphonodes" [label="Invaded regional linphonodes
+DV_TEXT"];
+"Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure__Tumour_-_TNM_Cancer_staging" [label="Tumour - TNM Cancer staging
+unknown"];
+"Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure__Tumour_-_TNM_Cancer_staging__Clinical_(cTNM)" [label="Clinical (cTNM)
+unknown"];
+"Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure__Tumour_-_TNM_Cancer_staging__Clinical_(cTNM)__Clinical_staging" [label="Clinical staging
+DV_TEXT"];
+"Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure__Tumour_-_TNM_Cancer_staging__Pathological_(pTNM)" [label="Pathological (pTNM)
+unknown"];
+"Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure__Tumour_-_TNM_Cancer_staging__Pathological_(pTNM)__Histopathological_grading_(G)" [label="Histopathological grading (G)
+DV_TEXT"];
+"Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure__Tumour_-_TNM_Cancer_staging__Pathological_(pTNM)__date_of_pathological_identification" [label="date of pathological identification
+DV_DATE"];
+"Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure__Tumour_-_TNM_Cancer_staging__topography" [label="topography
+DV_TEXT"];
+"Outpatient_high_complexity_procedures__Action:_Procedure_undertaken" [label="Action: Procedure undertaken
+unknown"];
+"Outpatient_high_complexity_procedures__Action:_Procedure_undertaken__Procedure_list" [label="Procedure list
+unknown"];
+"Outpatient_high_complexity_procedures__Action:_Procedure_undertaken__Procedure_list__Procedure" [label="Procedure
+DV_CODED_TEXT"];
+"Hospitalisation" [label="Hospitalisation
+unknown"];
+"Hospitalisation__Admin_Entry:_Patient_discharge" [label="Admin Entry: Patient discharge
+unknown"];
+"Hospitalisation__Admin_Entry:_Patient_discharge__Components" [label="Components
+unknown"];
+"Hospitalisation__Admin_Entry:_Patient_discharge__Components__date_of_discharge" [label="date of discharge
+DV_DATE"];
+"Hospitalisation__Admin_Entry:_Patient_discharge__Components__hospital_infection" [label="hospital infection
+DV_TEXT"];
+"Hospitalisation__Admin_Entry:_Patient_discharge__Components__claim_reason" [label="claim reason
+DV_TEXT"];
+"Hospitalisation__Admin_Entry:_Patient_discharge__Components__death_indicator" [label="death indicator
+DV_TEXT"];
+"Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission" [label="Admin Entry: Authorization for hospital admission
+unknown"];
+"Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission__Components" [label="Components
+unknown"];
+"Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission__Components__Issue_date" [label="Issue date
+DV_DATE"];
+"Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission__Components__ICU_-_Total" [label="ICU - Total
+DV_TEXT"];
+"Hospitalisation__Admin_Entry:_Patient_admission" [label="Admin Entry: Patient admission
+unknown"];
+"Hospitalisation__Admin_Entry:_Patient_admission__Tree" [label="Tree
+unknown"];
+"Hospitalisation__Admin_Entry:_Patient_admission__Tree__Patient_class" [label="Patient class
+DV_TEXT"];
+"Hospitalisation__Admin_Entry:_Patient_admission__Tree__Assigned_patient_location" [label="Assigned patient location
+unknown"];
+"Hospitalisation__Admin_Entry:_Patient_admission__Tree__Assigned_patient_location__Facility" [label="Facility
+unknown"];
+"Hospitalisation__Admin_Entry:_Patient_admission__Tree__Assigned_patient_location__Facility__Universal_ID" [label="Universal ID
+DV_TEXT"];
+"Hospitalisation__Admin_Entry:_Patient_admission__Tree__Assigned_patient_location__Address" [label="Address
+unknown"];
+"Hospitalisation__Admin_Entry:_Patient_admission__Tree__Assigned_patient_location__Address__State_province" [label="State/province
+DV_CODED_TEXT"];
+"Hospitalisation__Admin_Entry:_Patient_admission__Tree__Admission_type" [label="Admission type
+DV_CODED_TEXT"];
+"Hospitalisation__Admin_Entry:_Patient_admission__Tree__Hospital_service" [label="Hospital service
+DV_TEXT"];
+"Hospitalisation__Admin_Entry:_Patient_admission__Tree__Admit_date_time" [label="Admit date/time
+DV_DATE"];
+"Hospitalisation__Evaluation:_Problem_Diagnosis" [label="Evaluation: Problem/Diagnosis
+unknown"];
+"Hospitalisation__Evaluation:_Problem_Diagnosis__structure" [label="structure
+unknown"];
+"Hospitalisation__Evaluation:_Problem_Diagnosis__structure__Problem" [label="Problem
+DV_CODED_TEXT"];
+"Hospitalisation__Evaluation:_Problem_Diagnosis__structure__Secondary_Diagnosis" [label="Secondary Diagnosis
+DV_CODED_TEXT"];
+"Hospitalisation__Action:_Procedure_undertaken" [label="Action: Procedure undertaken
+unknown"];
+"Hospitalisation__Action:_Procedure_undertaken__Procedure_list" [label="Procedure list
+unknown"];
+"Hospitalisation__Action:_Procedure_undertaken__Procedure_list__Procedure" [label="Procedure
+DV_CODED_TEXT"];
+"Demographic_data" [label="Demographic data
+unknown"];
+"Demographic_data__Admin_Entry:_Demographic_data" [label="Admin Entry: Demographic data
+unknown"];
+"Demographic_data__Admin_Entry:_Demographic_data__components" [label="components
+unknown"];
+"Demographic_data__Admin_Entry:_Demographic_data__components__birth_date" [label="birth date
+DV_DATE"];
+"Demographic_data__Admin_Entry:_Demographic_data__components__gender" [label="gender
+DV_CODED_TEXT"];
+"Demographic_data__Admin_Entry:_Demographic_data__components__race" [label="race
+DV_CODED_TEXT"];
+"Demographic_data__Admin_Entry:_Demographic_data__components__ethnic_group" [label="ethnic group
+DV_TEXT"];
+"Demographic_data__Admin_Entry:_Demographic_data__components__educational_level" [label="educational level
+DV_CODED_TEXT"];
+"Demographic_data__Admin_Entry:_Demographic_data__components__nationality" [label="nationality
+DV_CODED_TEXT"];
+"Outpatient_high_complexity_procedures" -> "Outpatient_high_complexity_procedures__Admin_Entry:_HCPA";
+"Outpatient_high_complexity_procedures__Admin_Entry:_HCPA" -> "Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components";
+"Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components" -> "Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components__General_data";
+"Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components__General_data" -> "Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components__General_data__issue_date";
+"Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components__General_data" -> "Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components__General_data__reason_for_encounter";
+"Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components__General_data" -> "Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components__General_data__healthcare_unit";
+"Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components__General_data" -> "Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components__General_data__State";
+"Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components__General_data" -> "Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components__General_data__patient_age";
+"Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components" -> "Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components__chemotherapy";
+"Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components__chemotherapy" -> "Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components__chemotherapy__duration_of_treatment";
+"Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components__chemotherapy" -> "Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components__chemotherapy__schema";
+"Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components__chemotherapy" -> "Outpatient_high_complexity_procedures__Admin_Entry:_HCPA__components__chemotherapy__date_of_beginning_of_chemotherapy";
+"Outpatient_high_complexity_procedures" -> "Outpatient_high_complexity_procedures__Admin_Entry:_Patient_discharge";
+"Outpatient_high_complexity_procedures__Admin_Entry:_Patient_discharge" -> "Outpatient_high_complexity_procedures__Admin_Entry:_Patient_discharge__Components";
+"Outpatient_high_complexity_procedures__Admin_Entry:_Patient_discharge__Components" -> "Outpatient_high_complexity_procedures__Admin_Entry:_Patient_discharge__Components__date_of_discharge";
+"Outpatient_high_complexity_procedures__Admin_Entry:_Patient_discharge__Components" -> "Outpatient_high_complexity_procedures__Admin_Entry:_Patient_discharge__Components__reason_for_discharge";
+"Outpatient_high_complexity_procedures" -> "Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis";
+"Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis" -> "Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure";
+"Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure" -> "Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure__Problem";
+"Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure" -> "Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure__Secondary_Diagnosis";
+"Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure" -> "Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure__Associated_causes";
+"Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure" -> "Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure__Invaded_regional_linphonodes";
+"Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure" -> "Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure__Tumour_-_TNM_Cancer_staging";
+"Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure__Tumour_-_TNM_Cancer_staging" -> "Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure__Tumour_-_TNM_Cancer_staging__Clinical_(cTNM)";
+"Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure__Tumour_-_TNM_Cancer_staging__Clinical_(cTNM)" -> "Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure__Tumour_-_TNM_Cancer_staging__Clinical_(cTNM)__Clinical_staging";
+"Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure__Tumour_-_TNM_Cancer_staging" -> "Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure__Tumour_-_TNM_Cancer_staging__Pathological_(pTNM)";
+"Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure__Tumour_-_TNM_Cancer_staging__Pathological_(pTNM)" -> "Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure__Tumour_-_TNM_Cancer_staging__Pathological_(pTNM)__Histopathological_grading_(G)";
+"Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure__Tumour_-_TNM_Cancer_staging__Pathological_(pTNM)" -> "Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure__Tumour_-_TNM_Cancer_staging__Pathological_(pTNM)__date_of_pathological_identification";
+"Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure__Tumour_-_TNM_Cancer_staging" -> "Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis__structure__Tumour_-_TNM_Cancer_staging__topography";
+"Outpatient_high_complexity_procedures" -> "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken";
+"Outpatient_high_complexity_procedures__Action:_Procedure_undertaken" -> "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken__Procedure_list";
+"Outpatient_high_complexity_procedures__Action:_Procedure_undertaken__Procedure_list" -> "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken__Procedure_list__Procedure";
+"Hospitalisation" -> "Hospitalisation__Admin_Entry:_Patient_discharge";
+"Hospitalisation__Admin_Entry:_Patient_discharge" -> "Hospitalisation__Admin_Entry:_Patient_discharge__Components";
+"Hospitalisation__Admin_Entry:_Patient_discharge__Components" -> "Hospitalisation__Admin_Entry:_Patient_discharge__Components__date_of_discharge";
+"Hospitalisation__Admin_Entry:_Patient_discharge__Components" -> "Hospitalisation__Admin_Entry:_Patient_discharge__Components__hospital_infection";
+"Hospitalisation__Admin_Entry:_Patient_discharge__Components" -> "Hospitalisation__Admin_Entry:_Patient_discharge__Components__claim_reason";
+"Hospitalisation__Admin_Entry:_Patient_discharge__Components" -> "Hospitalisation__Admin_Entry:_Patient_discharge__Components__death_indicator";
+"Hospitalisation" -> "Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission";
+"Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission" -> "Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission__Components";
+"Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission__Components" -> "Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission__Components__Issue_date";
+"Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission__Components" -> "Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission__Components__ICU_-_Total";
+"Hospitalisation" -> "Hospitalisation__Admin_Entry:_Patient_admission";
+"Hospitalisation__Admin_Entry:_Patient_admission" -> "Hospitalisation__Admin_Entry:_Patient_admission__Tree";
+"Hospitalisation__Admin_Entry:_Patient_admission__Tree" -> "Hospitalisation__Admin_Entry:_Patient_admission__Tree__Patient_class";
+"Hospitalisation__Admin_Entry:_Patient_admission__Tree" -> "Hospitalisation__Admin_Entry:_Patient_admission__Tree__Assigned_patient_location";
+"Hospitalisation__Admin_Entry:_Patient_admission__Tree__Assigned_patient_location" -> "Hospitalisation__Admin_Entry:_Patient_admission__Tree__Assigned_patient_location__Facility";
+"Hospitalisation__Admin_Entry:_Patient_admission__Tree__Assigned_patient_location__Facility" -> "Hospitalisation__Admin_Entry:_Patient_admission__Tree__Assigned_patient_location__Facility__Universal_ID";
+"Hospitalisation__Admin_Entry:_Patient_admission__Tree__Assigned_patient_location" -> "Hospitalisation__Admin_Entry:_Patient_admission__Tree__Assigned_patient_location__Address";
+"Hospitalisation__Admin_Entry:_Patient_admission__Tree__Assigned_patient_location__Address" -> "Hospitalisation__Admin_Entry:_Patient_admission__Tree__Assigned_patient_location__Address__State_province";
+"Hospitalisation__Admin_Entry:_Patient_admission__Tree" -> "Hospitalisation__Admin_Entry:_Patient_admission__Tree__Admission_type";
+"Hospitalisation__Admin_Entry:_Patient_admission__Tree" -> "Hospitalisation__Admin_Entry:_Patient_admission__Tree__Hospital_service";
+"Hospitalisation__Admin_Entry:_Patient_admission__Tree" -> "Hospitalisation__Admin_Entry:_Patient_admission__Tree__Admit_date_time";
+"Hospitalisation" -> "Hospitalisation__Evaluation:_Problem_Diagnosis";
+"Hospitalisation__Evaluation:_Problem_Diagnosis" -> "Hospitalisation__Evaluation:_Problem_Diagnosis__structure";
+"Hospitalisation__Evaluation:_Problem_Diagnosis__structure" -> "Hospitalisation__Evaluation:_Problem_Diagnosis__structure__Problem";
+"Hospitalisation__Evaluation:_Problem_Diagnosis__structure" -> "Hospitalisation__Evaluation:_Problem_Diagnosis__structure__Secondary_Diagnosis";
+"Hospitalisation" -> "Hospitalisation__Action:_Procedure_undertaken";
+"Hospitalisation__Action:_Procedure_undertaken" -> "Hospitalisation__Action:_Procedure_undertaken__Procedure_list";
+"Hospitalisation__Action:_Procedure_undertaken__Procedure_list" -> "Hospitalisation__Action:_Procedure_undertaken__Procedure_list__Procedure";
+"Demographic_data" -> "Demographic_data__Admin_Entry:_Demographic_data";
+"Demographic_data__Admin_Entry:_Demographic_data" -> "Demographic_data__Admin_Entry:_Demographic_data__components";
+"Demographic_data__Admin_Entry:_Demographic_data__components" -> "Demographic_data__Admin_Entry:_Demographic_data__components__birth_date";
+"Demographic_data__Admin_Entry:_Demographic_data__components" -> "Demographic_data__Admin_Entry:_Demographic_data__components__gender";
+"Demographic_data__Admin_Entry:_Demographic_data__components" -> "Demographic_data__Admin_Entry:_Demographic_data__components__race";
+"Demographic_data__Admin_Entry:_Demographic_data__components" -> "Demographic_data__Admin_Entry:_Demographic_data__components__ethnic_group";
+"Demographic_data__Admin_Entry:_Demographic_data__components" -> "Demographic_data__Admin_Entry:_Demographic_data__components__educational_level";
+"Demographic_data__Admin_Entry:_Demographic_data__components" -> "Demographic_data__Admin_Entry:_Demographic_data__components__nationality";
+}

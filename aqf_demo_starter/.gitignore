@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+*.pyc
+aqf_runtime/exports/*.json
+aqf_runtime/exports/*.csv

@@ -1,0 +1,338 @@
+{
+  "form_id": "ed8a4c7f-0628-4fd8-9151-751c0ebe3d94",
+  "source_tree_id": "schema_graph",
+  "form_group": "AQF Canonical Form",
+  "root_canonical_id": "aqf_root",
+  "groups": [
+    {
+      "group_id": "group_Demographic_data",
+      "label": "Demographic Data",
+      "fields": [
+        {
+          "field_id": "Demographic_data__Admin_Entry:_Demographic_data",
+          "label": "Admin Entry: Demographic data",
+          "path": "Demographic data / Admin Entry: Demographic data",
+          "datatype": "unknown",
+          "queriability": 1.0833333333333335,
+          "allowed_operators": [
+            "=",
+            "!=",
+            "contains",
+            "starts_with"
+          ],
+          "distinct_values": [],
+          "recommended_widget": "text_input",
+          "metadata": {
+            "node_type": "section",
+            "repository_types": [
+              "openehr"
+            ],
+            "archetype_ids": [
+              "openEHR-EHR-COMPOSITION.demographic_data.v1"
+            ]
+          }
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "group_id": "group_Hospitalisation",
+      "label": "Hospitalisation",
+      "fields": [
+        {
+          "field_id": "Hospitalisation__Admin_Entry:_Patient_discharge",
+          "label": "Admin Entry: Patient discharge",
+          "path": "Hospitalisation / Admin Entry: Patient discharge",
+          "datatype": "unknown",
+          "queriability": 1.516666666666667,
+          "allowed_operators": [
+            "=",
+            "!=",
+            "contains",
+            "starts_with"
+          ],
+          "distinct_values": [],
+          "recommended_widget": "text_input",
+          "metadata": {
+            "node_type": "section",
+            "repository_types": [
+              "openehr"
+            ],
+            "archetype_ids": [
+              "openEHR-EHR-COMPOSITION.hospitalisation.v1"
+            ]
+          }
+        },
+        {
+          "field_id": "Hospitalisation__Admin_Entry:_Authorization_for_hospital_admission",
+          "label": "Admin Entry: Authorization for hospital admission",
+          "path": "Hospitalisation / Admin Entry: Authorization for hospital admission",
+          "datatype": "unknown",
+          "queriability": 1.516666666666667,
+          "allowed_operators": [
+            "=",
+            "!=",
+            "contains",
+            "starts_with"
+          ],
+          "distinct_values": [],
+          "recommended_widget": "text_input",
+          "metadata": {
+            "node_type": "section",
+            "repository_types": [
+              "openehr"
+            ],
+            "archetype_ids": [
+              "openEHR-EHR-COMPOSITION.hospitalisation.v1"
+            ]
+          }
+        },
+        {
+          "field_id": "Hospitalisation__Admin_Entry:_Patient_admission",
+          "label": "Admin Entry: Patient admission",
+          "path": "Hospitalisation / Admin Entry: Patient admission",
+          "datatype": "unknown",
+          "queriability": 1.516666666666667,
+          "allowed_operators": [
+            "=",
+            "!=",
+            "contains",
+            "starts_with"
+          ],
+          "distinct_values": [],
+          "recommended_widget": "text_input",
+          "metadata": {
+            "node_type": "section",
+            "repository_types": [
+              "openehr"
+            ],
+            "archetype_ids": [
+              "openEHR-EHR-COMPOSITION.hospitalisation.v1"
+            ]
+          }
+        },
+        {
+          "field_id": "Hospitalisation__Evaluation:_Problem_Diagnosis",
+          "label": "Evaluation: Problem/Diagnosis",
+          "path": "Hospitalisation / Evaluation: Problem/Diagnosis",
+          "datatype": "unknown",
+          "queriability": 1.516666666666667,
+          "allowed_operators": [
+            "=",
+            "!=",
+            "contains",
+            "starts_with"
+          ],
+          "distinct_values": [],
+          "recommended_widget": "text_input",
+          "metadata": {
+            "node_type": "section",
+            "repository_types": [
+              "openehr"
+            ],
+            "archetype_ids": [
+              "openEHR-EHR-COMPOSITION.hospitalisation.v1"
+            ]
+          }
+        },
+        {
+          "field_id": "Hospitalisation__Action:_Procedure_undertaken",
+          "label": "Action: Procedure undertaken",
+          "path": "Hospitalisation / Action: Procedure undertaken",
+          "datatype": "unknown",
+          "queriability": 1.516666666666667,
+          "allowed_operators": [
+            "=",
+            "!=",
+            "contains",
+            "starts_with"
+          ],
+          "distinct_values": [],
+          "recommended_widget": "text_input",
+          "metadata": {
+            "node_type": "section",
+            "repository_types": [
+              "openehr"
+            ],
+            "archetype_ids": [
+              "openEHR-EHR-COMPOSITION.hospitalisation.v1"
+            ]
+          }
+        },
+        {
+          "field_id": "Hospitalisation__Action:_Procedure_undertaken__Procedure_list",
+          "label": "Procedure list",
+          "path": "Hospitalisation / Action: Procedure undertaken / Procedure list",
+          "datatype": "unknown",
+          "queriability": 1.4625000000000004,
+          "allowed_operators": [
+            "=",
+            "!=",
+            "contains",
+            "starts_with"
+          ],
+          "distinct_values": [],
+          "recommended_widget": "text_input",
+          "metadata": {
+            "node_type": "substructure",
+            "repository_types": [
+              "openehr"
+            ],
+            "archetype_ids": [
+              "openEHR-EHR-COMPOSITION.hospitalisation.v1"
+            ]
+          }
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "group_id": "group_Outpatient_high_complexity_procedures",
+      "label": "Outpatient High Complexity Procedures",
+      "fields": [
+        {
+          "field_id": "Outpatient_high_complexity_procedures__Admin_Entry:_HCPA",
+          "label": "Admin Entry: HCPA",
+          "path": "Outpatient high complexity procedures / Admin Entry: HCPA",
+          "datatype": "unknown",
+          "queriability": 1.4083333333333337,
+          "allowed_operators": [
+            "=",
+            "!=",
+            "contains",
+            "starts_with"
+          ],
+          "distinct_values": [],
+          "recommended_widget": "text_input",
+          "metadata": {
+            "node_type": "section",
+            "repository_types": [
+              "openehr"
+            ],
+            "archetype_ids": [
+              "openEHR-EHR-COMPOSITION.outpatient_high_complexity_procedures.v1"
+            ]
+          }
+        },
+        {
+          "field_id": "Outpatient_high_complexity_procedures__Admin_Entry:_Patient_discharge",
+          "label": "Admin Entry: Patient discharge",
+          "path": "Outpatient high complexity procedures / Admin Entry: Patient discharge",
+          "datatype": "unknown",
+          "queriability": 1.4083333333333337,
+          "allowed_operators": [
+            "=",
+            "!=",
+            "contains",
+            "starts_with"
+          ],
+          "distinct_values": [],
+          "recommended_widget": "text_input",
+          "metadata": {
+            "node_type": "section",
+            "repository_types": [
+              "openehr"
+            ],
+            "archetype_ids": [
+              "openEHR-EHR-COMPOSITION.outpatient_high_complexity_procedures.v1"
+            ]
+          }
+        },
+        {
+          "field_id": "Outpatient_high_complexity_procedures__Evaluation:_Problem_Diagnosis",
+          "label": "Evaluation: Problem/Diagnosis",
+          "path": "Outpatient high complexity procedures / Evaluation: Problem/Diagnosis",
+          "datatype": "unknown",
+          "queriability": 1.4083333333333337,
+          "allowed_operators": [
+            "=",
+            "!=",
+            "contains",
+            "starts_with"
+          ],
+          "distinct_values": [],
+          "recommended_widget": "text_input",
+          "metadata": {
+            "node_type": "section",
+            "repository_types": [
+              "openehr"
+            ],
+            "archetype_ids": [
+              "openEHR-EHR-COMPOSITION.outpatient_high_complexity_procedures.v1"
+            ]
+          }
+        },
+        {
+          "field_id": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken",
+          "label": "Action: Procedure undertaken",
+          "path": "Outpatient high complexity procedures / Action: Procedure undertaken",
+          "datatype": "unknown",
+          "queriability": 1.4083333333333337,
+          "allowed_operators": [
+            "=",
+            "!=",
+            "contains",
+            "starts_with"
+          ],
+          "distinct_values": [],
+          "recommended_widget": "text_input",
+          "metadata": {
+            "node_type": "section",
+            "repository_types": [
+              "openehr"
+            ],
+            "archetype_ids": [
+              "openEHR-EHR-COMPOSITION.outpatient_high_complexity_procedures.v1"
+            ]
+          }
+        },
+        {
+          "field_id": "Outpatient_high_complexity_procedures__Action:_Procedure_undertaken__Procedure_list",
+          "label": "Procedure list",
+          "path": "Outpatient high complexity procedures / Action: Procedure undertaken / Procedure list",
+          "datatype": "unknown",
+          "queriability": 1.354166666666667,
+          "allowed_operators": [
+            "=",
+            "!=",
+            "contains",
+            "starts_with"
+          ],
+          "distinct_values": [],
+          "recommended_widget": "text_input",
+          "metadata": {
+            "node_type": "substructure",
+            "repository_types": [
+              "openehr"
+            ],
+            "archetype_ids": [
+              "openEHR-EHR-COMPOSITION.outpatient_high_complexity_procedures.v1"
+            ]
+          }
+        }
+      ],
+      "metadata": {}
+    }
+  ],
+  "relationship_tree": [
+    {
+      "source": "group_Demographic_data",
+      "target_count": 1,
+      "edge_type": "group_contains_fields"
+    },
+    {
+      "source": "group_Hospitalisation",
+      "target_count": 6,
+      "edge_type": "group_contains_fields"
+    },
+    {
+      "source": "group_Outpatient_high_complexity_procedures",
+      "target_count": 5,
+      "edge_type": "group_contains_fields"
+    }
+  ],
+  "form_queriability": 17.11666666666667,
+  "element_count": 12,
+  "subgroup_count": 3,
+  "max_depth": 1
+}

@@ -1,0 +1,74 @@
+Outpatient high complexity procedures
+    Action: Procedure undertaken
+        Procedure list
+            Procedure
+    Admin Entry: HCPA
+        components
+            General data
+                State
+                healthcare unit
+                issue date
+                patient age
+                reason for encounter
+            chemotherapy
+                date of beginning of chemotherapy
+                duration of treatment
+                schema
+    Admin Entry: Patient discharge
+        Components
+            date of discharge
+            reason for discharge
+    Evaluation: Problem/Diagnosis
+        structure
+            Associated causes
+            Invaded regional linphonodes
+            Problem
+            Secondary Diagnosis
+            Tumour - TNM Cancer staging
+                Clinical (cTNM)
+                    Clinical staging
+                Pathological (pTNM)
+                    Histopathological grading (G)
+                    date of pathological identification
+                topography
+
+Hospitalisation
+    Action: Procedure undertaken
+        Procedure list
+            Procedure
+    Admin Entry: Authorization for hospital admission
+        Components
+            ICU - Total
+            Issue date
+    Admin Entry: Patient admission
+        Tree
+            Admission type
+            Admit date/time
+            Assigned patient location
+                Address
+                    State/province
+                Facility
+                    Universal ID
+            Hospital service
+            Patient class
+    Admin Entry: Patient discharge
+        Components
+            claim reason
+            date of discharge
+            death indicator
+            hospital infection
+    Evaluation: Problem/Diagnosis
+        structure
+            Problem
+            Secondary Diagnosis
+
+Demographic data
+    Admin Entry: Demographic data
+        components
+            birth date
+            educational level
+            ethnic group
+            gender
+            nationality
+            race
+

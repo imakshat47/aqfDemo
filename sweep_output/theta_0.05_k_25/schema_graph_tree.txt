@@ -1,0 +1,24 @@
+Outpatient high complexity procedures
+    Action: Procedure undertaken
+        Procedure list
+    Admin Entry: HCPA
+    Admin Entry: Patient discharge
+    Evaluation: Problem/Diagnosis
+
+Outpatient high complexity procedures
+
+Hospitalisation
+    Action: Procedure undertaken
+        Procedure list
+    Admin Entry: Authorization for hospital admission
+    Admin Entry: Patient admission
+    Admin Entry: Patient discharge
+    Evaluation: Problem/Diagnosis
+
+Hospitalisation
+
+Demographic data
+    Admin Entry: Demographic data
+
+Demographic data
+

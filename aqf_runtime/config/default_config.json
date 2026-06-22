@@ -1,0 +1,32 @@
+{
+  "schema": {
+    "max_depth": 10
+  },
+  "coverage": {
+    "global_weight": 0.2,
+    "local_weight": 0.8
+  },
+  "diversity": {
+    "enabled": true,
+    "weight": 0.25,
+    "max_dropdown_values": 20,
+    "max_autocomplete_values": 100
+  },
+  "pruning": {
+    "theta_global": 0.03,
+    "top_k_per_root": 20,
+    "min_coverage_local": 0.0
+  },
+  "scoring": {
+    "lambda_cc": 0.25,
+    "mu": 0.25
+  },
+  "widget_rules": {
+    "date": "date_picker",
+    "boolean": "checkbox",
+    "numeric": "number_input",
+    "low_cardinality_text": "dropdown",
+    "medium_cardinality_text": "autocomplete",
+    "high_cardinality_text": "text_input"
+  }
+}

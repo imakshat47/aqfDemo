@@ -1,0 +1,688 @@
+You are a senior software architect and Python engineer.
+
+Your task is to build a clean production-quality implementation of AQF (Adaptive Query Forms) based on the supplied research paper and existing AQF prototype implementations.
+
+The objective is NOT to reproduce the existing codebase.
+
+The objective is to create a clean reviewer-ready AQF Demo System suitable for:
+
+* Thesis defense
+* Journal reviewers
+* End-user usability studies
+* Demonstration videos
+
+---
+
+## PROJECT GOAL
+
+Build a complete AQF Demo System capable of:
+
+1. Loading ORBDA/openEHR JSON datasets
+2. Building Schema Graphs
+3. Computing Queriability Scores
+4. Performing Candidate Selection
+5. Building Canonical Structures
+6. Applying Operator-Aware Field Classification
+7. Generating Adaptive Query Forms
+8. Translating forms into AQL
+9. Showing the entire AQF pipeline visually
+10. Collecting usability-study metrics
+
+The architecture must follow the AQF paper exactly:
+
+Dataset
+↓
+Schema Graph
+↓
+Queriability
+↓
+Candidate Selection
+↓
+Canonical Structure
+↓
+Operator Awareness
+↓
+Adaptive Forms
+↓
+Query Realization (AQL)
+
+---
+
+## REPOSITORY STRUCTURE
+
+Create:
+
+AQF_DEMO/
+
+├── aqf_runtime/
+│
+├── aqf_backend/
+│
+├── aqf_frontend/
+│
+├── evaluation/
+│
+├── datasets/
+│
+└── docs/
+
+---
+
+## AQF_RUNTIME
+
+AQF Runtime contains ALL AQF logic.
+
+No FastAPI logic.
+
+No React logic.
+
+No UI logic.
+
+Folder:
+
+aqf_runtime/
+
+├── models/
+│
+├── services/
+│
+├── exports/
+│
+├── tests/
+│
+└── pipeline.py
+
+---
+
+## MODELS
+
+Create:
+
+schema.py
+
+Contains:
+
+SchemaNode
+SchemaEdge
+SchemaGraph
+
+Each node must contain:
+
+* node_id
+* label
+* path
+* node_type
+* datatype
+* coverage
+* diversity
+* queriability
+* metadata
+
+---
+
+canonical.py
+
+Contains:
+
+CanonicalField
+CanonicalGroup
+CanonicalTree
+CanonicalForm
+
+---
+
+forms.py
+
+Contains:
+
+FormElement
+AdaptiveForm
+
+---
+
+query.py
+
+Contains:
+
+Predicate
+QueryPlan
+QueryExplanation
+
+---
+
+## SERVICES
+
+1. schema_graph.py
+
+Create:
+
+SchemaGraphBuilder
+
+Responsibilities:
+
+* Load ORBDA/openEHR JSON
+* Extract hierarchical paths
+* Build containment edges
+* Build co-occurrence edges
+* Infer datatypes
+* Generate schema graph
+
+Export:
+
+schema_graph.json
+
+---
+
+2. queriability.py
+
+Create:
+
+QueriabilityEngine
+
+Implement paper equations:
+
+LU(v)
+
+SC(u,v)
+
+Q(v)
+
+Where:
+
+LU(v) = coverage × diversity
+
+Q(v) = LU(v) + μ Σ(SC × LU)
+
+Export:
+
+weighted_graph.json
+
+node_scores.json
+
+---
+
+3. candidate_selection.py
+
+Create:
+
+CandidateSelector
+
+Implement:
+
+score(v) >= θ × maxscore
+
+Requirements:
+
+* Preserve parent chain
+* Prevent orphan nodes
+* Maintain containment integrity
+
+Export:
+
+reduced_graph.json
+
+---
+
+4. canonical_structure.py
+
+Create:
+
+CanonicalStructureBuilder
+
+Convert reduced graph into:
+
+Form Groups
+Form Subgroups
+Form Elements
+
+Output:
+
+CanonicalTree
+
+CanonicalForm
+
+Export:
+
+canonical_tree.json
+
+canonical_form.json
+
+---
+
+5. operator_awareness.py
+
+Create:
+
+OperatorAwareness
+
+Create datatype-to-operator mapping:
+
+NUMERIC
+
+= != > >= < <=
+
+TEXT
+
+= != contains starts_with
+
+BOOLEAN
+
+=
+
+DATE
+
+before
+after
+between
+=======
+
+Annotate all form elements.
+
+Export:
+
+operator_map.json
+
+---
+
+6. adaptive_forms.py
+
+Create:
+
+AdaptiveFormGenerator
+
+Implement:
+
+Utility:
+
+U(F)
+
+Complexity:
+
+C(F)
+
+Constraint:
+
+C(F) <= κ
+
+Default:
+
+κ = 53
+
+Output:
+
+AdaptiveForm
+
+Export:
+
+adaptive_form.json
+
+---
+
+7. query_realizer.py
+
+Create:
+
+QueryRealizer
+
+Responsibilities:
+
+Convert:
+
+field
+operator
+value
+
+into:
+
+Predicate
+QueryPlan
+AQL
+
+Example:
+
+Age > 50
+
+becomes:
+
+SELECT e
+FROM EHR e
+WHERE e/demographic/age > $p0
+
+Output:
+
+query_explanation.json
+
+---
+
+8. dataset_inspector.py
+
+Create:
+
+DatasetInspector
+
+Return:
+
+records
+sections
+fields
+compositions
+
+Used by UI Page 1.
+
+---
+
+9. metrics.py
+
+Create:
+
+AQFMetrics
+
+Compute:
+
+coverage
+
+field_count
+
+complexity
+
+operator_burden
+
+Used in evaluation and usability study.
+
+---
+
+10. exports.py
+
+Create:
+
+ExportManager
+
+Export all AQF artifacts to JSON.
+
+---
+
+11. pipeline.py
+
+Create:
+
+AQFPipeline
+
+Single orchestration entry point.
+
+Flow:
+
+Schema Graph
+→ Queriability
+→ Candidate Selection
+→ Canonical Structure
+→ Operator Awareness
+→ Adaptive Forms
+
+Output:
+
+{
+schema_graph,
+weighted_graph,
+reduced_graph,
+canonical_form,
+adaptive_form
+}
+
+---
+
+## FASTAPI BACKEND
+
+Folder:
+
+aqf_backend/
+
+Create:
+
+main.py
+
+routers/
+
+services/
+
+schemas/
+
+Only call aqf_runtime.
+
+Never duplicate AQF logic.
+
+Endpoints:
+
+POST /repository/load
+
+GET /repository/summary
+
+POST /aqf/generate
+
+GET /aqf/latest
+
+POST /query/explain
+
+POST /query/run
+
+POST /usability/event
+
+GET /usability/log
+
+---
+
+## FRONTEND
+
+React + Vite
+
+Folder:
+
+aqf_frontend/
+
+Create:
+
+pages/
+
+components/
+
+services/
+
+---
+
+## PAGE 1
+
+Repository Overview
+
+Show:
+
+* Records
+* Compositions
+* Sections
+* Fields
+
+Button:
+
+Generate AQF
+
+---
+
+## PAGE 2
+
+AQF Construction
+
+Reviewer-facing page.
+
+Visualize:
+
+Schema Graph
+↓
+Queriability
+↓
+Candidate Selection
+↓
+Canonical Structure
+↓
+Operator Awareness
+↓
+Adaptive Form
+
+Each stage expandable.
+
+---
+
+## PAGE 3
+
+Adaptive Query Builder
+
+Main AQF interface.
+
+User selects:
+
+Age > 50
+
+Gender = Female
+
+Cancer Type = Breast
+
+Execute Query
+
+View Results
+
+---
+
+## PAGE 4
+
+Query Explanation
+
+Show:
+
+Selected Fields
+↓
+Predicates
+↓
+Generated AQL
+↓
+Results
+
+This page demonstrates query realization.
+
+---
+
+## PAGE 5
+
+Usability Study
+
+Collect:
+
+* Task Completion Rate
+* Query Success Rate
+* Completion Time
+* Click Count
+* Error Count
+* Fields Used
+* Operator Count
+
+Implement SUS questionnaire.
+
+Store results in CSV and JSON.
+
+---
+
+## USABILITY MODULE
+
+Create:
+
+participant_id
+
+task_id
+
+timestamp
+
+sus_score
+
+completion_time
+
+click_count
+
+query_success
+
+Export:
+
+results.csv
+
+results.json
+
+---
+
+## TESTING
+
+Create tests for every runtime module:
+
+test_schema_graph.py
+
+test_queriability.py
+
+test_candidate_selection.py
+
+test_canonical_structure.py
+
+test_operator_awareness.py
+
+test_adaptive_forms.py
+
+test_query_realizer.py
+
+---
+
+## CODING REQUIREMENTS
+
+1. Python 3.11+
+
+2. Type hints everywhere
+
+3. Dataclasses preferred
+
+4. Pydantic for API schemas
+
+5. No duplicated AQF logic
+
+6. All AQF logic lives in aqf_runtime
+
+7. JSON exports for every stage
+
+8. Modular architecture
+
+9. Windows-compatible
+
+10. Ready to run in VS Code
+
+---
+
+## IMPLEMENTATION ORDER
+
+Phase 1
+
+Build complete aqf_runtime
+
+Target:
+
+dataset.json
+↓
+adaptive_form.json
+
+Phase 2
+
+Build FastAPI backend
+
+Phase 3
+
+Build React frontend
+
+Phase 4
+
+Build usability-study module
+
+Phase 5
+
+Add reviewer visualizations
+
+Generate code incrementally, module by module, while maintaining a working build after each phase.
